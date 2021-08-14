@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");                                                                                                                                    
-const url = "mongodb+srv://midxdle:fFbE2DpWoxmGTAXF@cluster0.axsj3.mongodb.net/test?retryWrites=true&w=majority";
+const url = "mongodb+srv://midxdle:fFbE2DpWoxmGTAXF@cluster0.axsj3.mongodb.net";
 const client = new MongoClient(url);
-const dbName = "test";
+const dbName = "sample_mflix";
 async function run() {
   try {
        await client.connect();
@@ -9,7 +9,7 @@ async function run() {
        const db = client.db(dbName);
 
        // Use the collection "people"
-       const col = db.collection("people");
+       const col = db.collection("sessions");
        const myDoc = await col.findOne();
          // Print to the console
          console.log(myDoc);
