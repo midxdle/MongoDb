@@ -1,7 +1,12 @@
 # thirdrepo
-this is a Git tutortial
+this was a Git tutortial first
+but now this is a repo for mongodb connection with node.js and export or searching data on mongo database
 # hello-world
 Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://www.w3schools.com
+This was an example repository for the Git
+but now it has :
+connect.js : connecting to mongo database
+ExportData.js : export some data to mongo database
+SearchData : search some data on mongo database that was added before 
 
-This repository is built step by step in the tuto
+This repository is built step by step
